@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery__inner{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.img__gallery img{
+    width: 200px;
+}
+
+.title__gallery{
+    text-align: center;
+    font-size: 24px;
+}
+
+.zoom__item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.zoom__pic{
+    width: 600px;
+}
+
+.zoom__text{
+    text-align: center;
+    font-size: 18px;
+}
